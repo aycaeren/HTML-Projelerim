@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.floating-box {
+    float: left;
+    flex-wrap: wrap;
+    display: flex;
+    height: 300px;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid blue;
+}
+.ortaAlan{
+    border: 5px solid purple;
+    background-color: green;
+    width: 380px;
+    height: 90px;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+    display: flex;
+}
+</style>
+</head>
+<body>
+    <div style="background-color: aqua; color: black; text-align: center; height: 50px; padding: 10px; width: 100%; border: 1px solid blue;">
+        <h3>Makaleler</h3>
+    </div>
+    <div style="background-color: burlywood; color: black; text-align: center; height: 100px; padding: 10px; width: 100%; border: 1px solid blue;">
+        <h3>Menü Burası</h3>
+        <div style="background-color:cornflowerblue; color: black; text-align: center;
+        height: 10px; width: 100px; padding: 10px; margin: 10px;float: left;">anasayfa</div> 
+        <div style="background-color:cornflowerblue; color: black; text-align: center;
+        height: 10px; width: 100px; padding: 10px; margin: 10px;float: left;">hakkımızda</div> 
+        <div style="background-color:cornflowerblue; color: black; text-align: center;
+        height: 10px; width: 100px; padding: 10px; margin: 10px;float: left;">iletişim</div>   
+    </div>
+<div class="floating-box" style="background-color: orangered;">
+    <h3>Reklam Alanı</h3>
+    <a href="https://www.w3schools.com/">
+    <img src="3f1630f3-a35f-4097-a1f6-8c009b966339.jpg" style="height: 200px; width: 200px;"></a>
+</div>
+<div class="floating-box" style="width: 60%; background-color: purple;">
+    <div class="ortaAlan"><strong>Makale 1</strong></div>
+    <div class="ortaAlan"><strong>Makale 2</strong></div>
+    <div class="ortaAlan"><strong>Makale 3</strong></div>
+    <div class="ortaAlan" style="flex-direction: column;"><strong>Makale 4</strong>
+        <p style="overflow: scroll;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste suscipit labore sunt quae at consectetur libero aliquid expedita voluptates neque, magni facilis, aliquam, commodi cupiditate impedit officiis pariatur veniam inventore!</p>
+    </div>
+</div>
+<div class="floating-box" style="background-color: orangered;">
+    <h3>Reklam Alanı</h3>
+    <a href="https://www.w3schools.com/">
+        <img src="3f1630f3-a35f-4097-a1f6-8c009b966339.jpg" style="height: 200px; width: 200px;"></a></div>
+</body>
+</html>
